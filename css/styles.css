@@ -70,7 +70,6 @@
 
 .hero {
     position: relative;
-    background: url("/img/hero.jpg");
     color: white;
     padding: 70px 120px 134px 120px;
     display: flex;
