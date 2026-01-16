@@ -24,6 +24,12 @@
     text-decoration: none;
     font-size: 16px; 
     cursor: pointer;
+    transition: transform 1s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background: linear-gradient(120deg, #ff7e5f, #feb47b, #ff7e5f);
 }
 
 .logo {
@@ -279,6 +285,7 @@ footer .socials {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    transition: transform 1s;
 }
 
 footer .icons i {
@@ -287,6 +294,12 @@ footer .icons i {
     margin: 0px 10px;
     border-radius: 50%;
     padding: 10px;
+    
+}
+.icons .fa-brands:hover{
+    transform: scale(1.2);
+    /* background: linear-gradient(120deg, #ff7e5f, #feb47b, #ff7e5f);   */
+
 }
 
 .icons h5 {
